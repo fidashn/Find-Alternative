@@ -26,6 +26,12 @@
   cursor: pointer;
 }
 
+.navbar-btns{
+display: flex;
+justify-content: space-around;
+width: 300px;
+}
+
 .btn{
   background-color: transparent;
   border: 2px #06283D solid;
@@ -88,4 +94,89 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .product-img{
+    background: url(./imgs/sony1.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 200px;
+  }
+
+  .product-short-info-p{
+   max-width: 300px;
+  }
+
+  .rating-stars{
+    background: url(./imgs/stars-9.8.png) no-repeat;
+    background-size: 100% 100%;
+    width: 70px;
+    height: 20px;
+  }
+
+  .more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+   
+
+  .show-more{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+  }
+  .show-more-btn{
+    width: 120px;
+  }
+
+  .view-deal-btn{
+    width: 200px;
+    background-color: #DFF6FF;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .view-deal-btn:hover, .show-more-btn:hover{
+    cursor: pointer;
+    background-color: #47B5FF;
+  }
+
+  .on-amazon-btn, .discount{
+    width: 100px;
+    background-color: #DFF6FF;
+    height: 30px;
+    border-radius: 20px;
+  }
+
+  .show-more-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    background-color: #DFF6FF;
+    height: 30px;
+    border-radius: 20px;
+  }
+
+  .rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .rating-numeric{
+   font-size:x-large;
+  }
+
+  .product-short-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
   }
