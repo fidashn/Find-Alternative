@@ -92,9 +92,9 @@ width: 300px;
 
   .product-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 5% 5% 5% 5%;
+    margin: 5% 0 5% 0;
   }
 
   .product-img{
@@ -192,4 +192,25 @@ width: 300px;
 
   .aboutUs-p, .ourServices-p{
     margin: 5% 5% 5% 5%;
+  }
+
+
+
+
+  @media only screen and (min-width: 360px) and (max-width: 768px) {
+    .product-container{
+      margin: 0 20px 0 20px;
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1074px) {
+    .product-container{
+      margin: 0 24px 0 24px;
+    }
+  }
+  @media only screen and (min-width: 1074px) {
+    .product-container{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
   }
