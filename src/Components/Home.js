@@ -9,7 +9,7 @@ function Home() {
         <p className="product-short-info-p">
           Sony 85 Inch Bravia Xr X95J Full Array Led Smart Google Tv,
           4K Ultra Hd High Dynamic Range Hdr, Xr-85X95J, 2021 Model</p>
-        <button className='discount'>7% off</button>
+        <button className='discount'>50% off</button>
       </div>
       <div className="rating">
         <div className="rating-numeric">9.8</div>

@@ -10,7 +10,6 @@
   align-items: center;
   background-color: #DFF6FF;
   list-style: none;
-  padding: 0 25% 0 25%;
   height: 7vh;
 }
 
@@ -145,7 +144,12 @@ width: 300px;
     background-color: #47B5FF;
   }
 
-  .on-amazon-btn, .discount{
+  .on-amazon-btn{
+    background-color: transparent;
+    border: transparent;
+  }
+
+   .discount{
     width: 100px;
     background-color: #DFF6FF;
     height: 30px;
