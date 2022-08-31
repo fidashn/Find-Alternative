@@ -3,7 +3,7 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import SignUp from './Components/SignUp';
 import SignIn from './Components/SignIn';
-import { BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import ContactUs from './Components/ContactUs';
 import AboutUs from './Components/AboutUs';
 import OurServices from './Components/OurServices';
@@ -11,26 +11,27 @@ import OurServices from './Components/OurServices';
 function App() {
   return (
     <div className="App">
-    <BrowserRouter >
+    <Router >
     <div className='navbar'> 
     <ul className='navbar-items'>
-    <li>About Us</li>
-    <li>Our Services</li>
-    <li>Contact Us</li>
+    <Link className='navbar-item' to='/about-us'><li>About Us</li></Link>
+    <Link className='navbar-item' to='/our-services'><li>Our Services</li></Link>
+    <Link className='navbar-item' to='/contact-us'><li>Contact Us</li></Link>
     </ul>
     <div className='navbar-btns'>
-    {/* <button className='sign-inup btn'>Sign Up</button>
-    <button className='sign-in btn'>Sign In</button> */}
+    <Link to='/sign-up'><button className='sign-up btn' >Sign Up</button></Link>
+    <Link to='/sign-in'><button className='sign-in btn'>Sign In</button></Link>
     </div>
     </div>
-     
-      <Route path="/home" component={Home} />
-      <Route exact path="/contactUs" component={ContactUs} />
-      <Route exact path="/aboutUs" component={AboutUs} />
-      <Route exact path="/ourServices" component={OurServices} />
-      <Route path="/signUp" component={SignUp} />
-      <Route exact path="/signIn" component={SignIn} />
-      </BrowserRouter>
+    <Routes>
+      <Route path="/home" element={Home} />
+      <Route  path="/contactUs" element={ContactUs} />
+      <Route  path="/aboutUs" element={AboutUs} />
+      <Route  path="/ourServices" element={OurServices} />
+      <Route path="/sign-up" element={SignUp} />
+      <Route  path="/sign-in" element={SignIn} />
+      </Routes>
+      </Router>
       <Footer />
     </div>
   );
