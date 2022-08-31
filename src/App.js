@@ -1,6 +1,5 @@
 import './App.css';
 import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import SignUp from './Components/SignUp';
 import SignIn from './Components/SignIn';
@@ -12,8 +11,19 @@ import OurServices from './Components/OurServices';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <BrowserRouter >
+    <BrowserRouter >
+    <div className='navbar'> 
+    <ul className='navbar-items'>
+    <li>About Us</li>
+    <li>Our Services</li>
+    <li>Contact Us</li>
+    </ul>
+    <div className='navbar-btns'>
+    {/* <button className='sign-inup btn'>Sign Up</button>
+    <button className='sign-in btn'>Sign In</button> */}
+    </div>
+    </div>
+     
       <Route path="/home" component={Home} />
       <Route exact path="/contactUs" component={ContactUs} />
       <Route exact path="/aboutUs" component={AboutUs} />
