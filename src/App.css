@@ -52,6 +52,7 @@ width: 300px;
   align-items: center;
   background-color: #DFF6FF;
   height: 7vh;
+  bottom: 0 ;
 }
 
 
@@ -205,10 +206,16 @@ width: 300px;
     .product-container{
       margin: 0 20px 0 20px;
     }
+    .footer{
+      bottom: 0;
+    }
   }
   @media only screen and (min-width: 769px) and (max-width: 1074px) {
     .product-container{
       margin: 0 24px 0 24px;
+    }
+    .footer{
+      bottom: 0;
     }
   }
   @media only screen and (min-width: 1074px) {
@@ -216,5 +223,10 @@ width: 300px;
       display: flex;
       justify-content: space-around;
       align-items: center;
+    
+    }
+
+    .footer{
+      bottom: 0;
     }
   }

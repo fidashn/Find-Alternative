@@ -19,17 +19,17 @@ function App() {
     <Link className='navbar-item' to='/contact-us'><li>Contact Us</li></Link>
     </ul>
     <div className='navbar-btns'>
-    <Link to='/sign-up'><button className='sign-up btn' >Sign Up</button></Link>
+    <Link to='/sign-up'><button className='sign-up btn'>Sign Up</button></Link>
     <Link to='/sign-in'><button className='sign-in btn'>Sign In</button></Link>
     </div>
     </div>
     <Routes>
-      <Route path="/home" element={Home} />
-      <Route  path="/contactUs" element={ContactUs} />
-      <Route  path="/aboutUs" element={AboutUs} />
-      <Route  path="/ourServices" element={OurServices} />
-      <Route path="/sign-up" element={SignUp} />
-      <Route  path="/sign-in" element={SignIn} />
+      <Route path='/home' element={<Home />} />
+      <Route  path='/contact-us' element={<ContactUs />} />
+      <Route  path='/about-us' element={<AboutUs />} />
+      <Route  path='/our-services' element={<OurServices />} />
+      <Route path='/sign-up' element={<SignUp />} />
+      <Route  path='/sign-in' element={<SignIn />} />
       </Routes>
       </Router>
       <Footer />
