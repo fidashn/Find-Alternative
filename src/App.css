@@ -39,11 +39,12 @@ width: 300px;
   height: 30px;
 }
 
-.btn:hover {
+.btn:hover,.submit:hover {
   cursor: pointer;
   transform: scale(1.1);
-  color: #1363DF;
-  border: 2px #1363DF solid;
+  z-index: 1;
+  background-color: aquamarine;
+  border: 2px aquamarine solid;
 }
 
 .footer {
