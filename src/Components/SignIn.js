@@ -10,7 +10,7 @@ function SignIn() {
     <input type="text" placeholder="Email.."  />
     Password:
     <input type="password" placeholder="Password.." />
-    <button type='submit' >login</button>
+    <button type='submit' className='submit'>login</button>
     </form>
     </div>
   )

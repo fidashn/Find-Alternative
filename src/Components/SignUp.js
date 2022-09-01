@@ -13,7 +13,7 @@ function SignUp() {
     <input type="text" placeholder="Email.."  />
     Password:
     <input type="password" placeholder="Password.." />
-    <button type='submit'>Submit</button>
+    <button type='submit' className='submit'>Submit</button>
     </form>
     </div>
   )
