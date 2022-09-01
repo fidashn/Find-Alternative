@@ -53,7 +53,8 @@ width: 300px;
   align-items: center;
   background-color: #DFF6FF;
   height: 7vh;
-  bottom: 0 ;
+  width: 100%;
+  bottom: 0;
 }
 
 
@@ -204,7 +205,7 @@ width: 300px;
     gap: 10px;
   }
 
-  .aboutUs-container, .contactUs-container,.ourServices-container{
+  .aboutUs-container,.signUpForm-container, .contactUs-container,.ourServices-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
