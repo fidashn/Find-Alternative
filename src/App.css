@@ -202,7 +202,7 @@ width: 300px;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    gap: 10px;
+    gap: 12px;
   }
 
   .aboutUs-container,.signUpForm-container, .contactUs-container,.ourServices-container{
