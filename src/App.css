@@ -230,7 +230,7 @@ width: 300px;
   }
   @media only screen and (min-width: 769px) and (max-width: 1074px) {
     .product-container{
-      margin: 0 24px 0 24px;
+      margin: 0 25px 0 25px;
     }
     .footer{
       bottom: 0;
