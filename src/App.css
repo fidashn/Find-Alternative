@@ -99,12 +99,9 @@ width: 300px;
     background-color: aquamarine;
     color: white;
     border-radius: 15px;
-    /* text-align:calc(100%+10px); */
+    text-align:center;
   }
 
-/* input[type=textarea] ~ placeholder {
-    margin-left: 10px;
-  } */
 
   .submit{
   background-color: transparent;
