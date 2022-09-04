@@ -98,8 +98,13 @@ width: 300px;
   textarea{
     background-color: aquamarine;
     color: white;
-    border-radius: 30px;
+    border-radius: 15px;
+    /* text-align:calc(100%+10px); */
   }
+
+/* input[type=textarea] ~ placeholder {
+    margin-left: 10px;
+  } */
 
   .submit{
   background-color: transparent;
