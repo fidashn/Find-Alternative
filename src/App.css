@@ -74,6 +74,9 @@ width: 300px;
   color: #b9e1f1;
   }
   
+  .contactUsForm{
+    height: 600px;
+  }
 
   input[type=text], input[type="password"]{
     background-color: aquamarine;
