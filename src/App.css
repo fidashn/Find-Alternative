@@ -36,6 +36,11 @@ width: 300px;
   border-bottom: transparent;
 }
 
+.navbar-item:hover {
+  border-bottom: 3px salmon solid;
+}
+
+
 
 .btn{
   background-color: transparent;
