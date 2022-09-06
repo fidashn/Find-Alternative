@@ -213,7 +213,7 @@ width: 300px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
   }
 
   .rating-numeric{
