@@ -84,6 +84,13 @@ width: 300px;
   border: 4px  aquamarine solid;
   color: #b9e1f1;
   }
+
+ .signInForm-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
   
   .contactUsForm{
     height: 600px;
