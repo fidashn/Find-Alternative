@@ -242,6 +242,11 @@ width: 300px;
     margin: 0 5% 5% 5%;
   }
 
+  .aboutUs-title{
+    border:#47B5FF 2px solid;
+    height: fit-content;
+  }
+
 
 
 
