@@ -10,7 +10,7 @@ function ContactUs() {
     Email:
     <input type="text" placeholder="Email.."/>
     Please type your message:
-    <textarea  name="" rows="10" cols="28" placeholder="Message.."></textarea>
+    <textarea  name="" rows="5" cols="28" placeholder="Message.."></textarea>
     <button type='submit' className='submit'>Submit</button>
   </form>
     </div>
