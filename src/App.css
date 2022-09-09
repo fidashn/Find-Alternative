@@ -235,14 +235,14 @@ width: 300px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-top:5% ;
+    margin-top:5% ;
   }
 
   .aboutUs-p, .ourServices-p{
     margin: 5% 5% 5% 5%;
   }
 
-  .aboutUs-title{
+  .aboutUs-title, .contactUs-title{
     border:#47B5FF 2px solid;
     height: fit-content;
   }
