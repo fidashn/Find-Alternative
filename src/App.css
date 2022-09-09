@@ -246,7 +246,9 @@ width: 300px;
     border: 2px  aquamarine solid;
     border-radius: 15px;
     background-color: black;
-    height: fit-content;
+    color: #DFF6FF;
+    width: 200px;
+    height: 100px;
   }
 
 
