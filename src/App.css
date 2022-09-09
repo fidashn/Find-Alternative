@@ -243,12 +243,13 @@ width: 300px;
   }
 
   .aboutUs-title, .contactUs-title{
+    text-align: center;
     border: 2px  aquamarine solid;
     border-radius: 15px;
     background-color: black;
     color: #DFF6FF;
     width: 200px;
-    height: 100px;
+    height: 120px;
   }
 
 
