@@ -243,7 +243,9 @@ width: 300px;
   }
 
   .aboutUs-title, .contactUs-title{
-    border:#47B5FF 2px solid;
+    border: 2px  aquamarine solid;
+    border-radius: 15px;
+    background-color: black;
     height: fit-content;
   }
 
