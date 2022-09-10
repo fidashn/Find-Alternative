@@ -246,8 +246,9 @@ width: 300px;
     text-align: center;
     border: 2px  aquamarine solid;
     border-radius: 15px;
-    background-color: black;
-    color: #DFF6FF;
+    background-color: rgb(8, 8, 8);
+    opacity: 0.8;
+    color: #b9e1f1;
     width: 200px;
     height: 120px;
   }
