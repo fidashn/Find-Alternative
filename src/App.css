@@ -242,7 +242,7 @@ width: 300px;
     margin: 5% 5% 5% 5%;
   }
 
-  .aboutUs-title, .contactUs-title{
+  .aboutUs-title, .contactUs-title, .ourServices-title{
     text-align: center;
     border: 2px  aquamarine solid;
     border-radius: 15px;
