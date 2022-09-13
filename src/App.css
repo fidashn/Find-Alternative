@@ -37,6 +37,7 @@ width: 300px;
 .navbar-item {
   text-decoration: none;
   border-bottom: transparent;
+  color: black;
 }
 
 .navbar-item:hover {
