@@ -25,6 +25,7 @@
 
 .navbar-items:hover{
   cursor: pointer;
+  
 }
 
 .navbar-btns{
@@ -40,6 +41,7 @@ width: 300px;
 
 .navbar-item:hover {
   border-bottom: 3px salmon solid;
+  color: black;
 }
 
 
